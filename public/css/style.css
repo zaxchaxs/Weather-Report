@@ -27,6 +27,9 @@ body {
 .container .tittle h1{
     padding: 4px;
 }
+.container .firstSection .imagesfirstSection{
+    display: flex;
+}
 .container .firstSection .imagesfirstSection img{
     width: 60%;
     display: block;
@@ -58,7 +61,6 @@ body {
     margin: 0 auto;
 }
 .container .secondSection .firstBox .imagesFirstBox img{
-    border: blue 1px solid;
     width: 70%;
     display: block;
     margin: 0 auto;
@@ -96,6 +98,22 @@ body {
     padding: 4px;
     margin: 0 auto;
 }
+.container .secondSection .secondBox .loaders{
+    position: relative;
+}
+.container .secondSection .secondBox .delLoaders{
+    display: none;
+}
+.container .secondSection .secondBox .loaders .loading img{
+    width: 100%;
+}
+.container .secondSection .secondBox .loaders .loadingP{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    justify-content: center;
+    color: rgb(76, 179, 248);
+}
 .container .secondSection .secondBox .addresGroup{
     text-align: center;
     line-height: 1.3;
@@ -110,6 +128,22 @@ body {
     display: block;
     margin: 2rem auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -163,6 +197,21 @@ body {
     .container .secondSection .secondBox{
         width: 50%;
         margin: 0 auto;
+    }
+    .container .secondSection .secondBox .loaders{
+        position: relative;
+    }
+    .container .secondSection .secondBox .delLoaders{
+        display: none;
+    }
+    .container .secondSection .secondBox .loaders .loading img{
+        width: 100%;
+    }
+    .container .secondSection .secondBox .loaders .loadingP{
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        color: rgb(76, 179, 248);
     }
     .container .secondSection .secondBox .detailWheater{
         margin: 0 auto;

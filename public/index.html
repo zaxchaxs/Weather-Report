@@ -20,7 +20,7 @@
 
                 <!-- First Section -->
                 <div class="firstSection">
-                    <div class="imagesfirstSection" style="display: flex;">
+                    <div class="imagesfirstSection">
                         <img src="image/secondLogo-icon.gif" alt="">
                         <img src="image/secondLogo-icon.gif" alt="">
                         <img src="image/secondLogo-icon.gif" alt="">
@@ -30,52 +30,28 @@
 
         
             <!-- Second Section -->
-            <div class="secondSection" style="border: black solid 1px;">
-                <div class="firstBox" style="border: yellow solid 1px;">
-                    <div class="imagesFirstBox" style="border: aqua solid 1px;">
+            <div class="secondSection">
+                <div class="firstBox">
+                    <div class="imagesFirstBox">
                         <img src="image/mainLogo-icon.gif" alt="">
                     </div>
-                    <div class="inputKeywordGroup" style="border: solid blue 2px;">
+                    <div class="inputKeywordGroup">
                         <h2>Type Your Country</h2>
                         <p>(For now, in Indonesian only)</p>
                         <input type="text" placeholder="Your Country..." class="input-keyword" id="">
                         <button type="submit" class="submit-button">Submit</button>
                     </div>
                 </div>
-                <div class="secondBox" style="border: red solid 1px;">
-                    <div class="addresGroup" style="border: aqua solid 1px;">
-                        <h2>(x) weather prediction</h2>
-                        <p>(keterangan tempat)</p>
-                    </div>
-                    <div class="detailWheater" style="border: solid 1px black;">
-                        <form action="" style="border: green 1px solid;">
-                        <table>
-                            <tr>
-                                <td>Date</td>
-                                <td> : </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Weather Prediction</td>
-                                <td> : </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Temperature</td>
-                                <td> : </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Description</td>
-                                <td> : </td>
-                                <td></td>
-                            </tr>
-                        </table>
-                        </form>
-                        <div class="imagesSecondBox">
-                            <img src="image/statusWeather-icon/rain.gif" alt="">
+                <div class="secondBox">
+                    <div class="loaders delLoaders" id="loaders">
+                        <div class="loading">
+                            <img src="image/buffering-icon.gif" alt="">
                         </div>
-                        
+                        <div class="loadingP">
+                            <h3>Loading...</h3>
+                        </div>
+                    </div>
+                    <div class="detailsWeather">
                     </div>
                 </div>
             </div>
