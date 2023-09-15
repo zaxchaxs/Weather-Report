@@ -1,0 +1,177 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Concert One', cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+/* First Section */
+.container .tittle{
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    font-family: 'Concert One', cursive;
+    position: fixed;
+    box-shadow: rgb(88, 88, 88) 0px 2px 7px;
+    font-size: small;
+    color: rgb(76, 179, 248);
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+}
+.container .tittle h1{
+    padding: 4px;
+}
+.container .firstSection .imagesfirstSection img{
+    width: 60%;
+    display: block;
+    margin: 4rem auto 0 auto;
+    overflow-x: hidden;
+ }
+.container .firstSection{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Second Section */
+.container .secondSection {
+    margin: 0 auto;
+}
+
+/* First Box */
+.container .secondSection .firstBox {
+    margin: 0 auto;
+    padding: 4px;
+    width: 100%;
+}
+.container .secondSection .firstBox .imagesFirstBox{
+    margin: 0 auto;
+}
+.container .secondSection .firstBox .imagesFirstBox img{
+    border: blue 1px solid;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.container .secondSection .firstBox .inputKeywordGroup {
+    text-align: center;    
+    margin: 0 auto;
+    line-height: 1;
+}
+.container .secondSection .firstBox .inputKeywordGroup input{
+    width: 50%;
+    padding: 10px;
+    border: solid rgb(76, 179, 248) 1px;
+    border-radius: 20px;
+}
+.container .secondSection .firstBox .inputKeywordGroup button{
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Concert One', cursive;
+    border: solid rgb(16, 104, 163) 1px;
+    background-color: rgb(76, 179, 248);
+    cursor: pointer;
+    box-shadow: rgb(88, 88, 88) 0px 2px 3px;
+}
+.container .secondSection .firstBox .inputKeywordGroup button:hover{
+    background-color: rgb(163, 218, 255);
+    transition: ease .3s;
+}
+.container .secondSection .firstBox .inputKeywordGroup button:active{
+    background-color: rgb(76, 179, 248);
+}
+
+/* Second Box */
+.container .secondSection .secondBox {
+    padding: 4px;
+    margin: 0 auto;
+}
+.container .secondSection .secondBox .addresGroup{
+    text-align: center;
+    line-height: 1.3;
+    margin: 0 auto;
+}
+.container .secondSection .secondBox form{
+    line-height: 2;
+    margin: 0 auto;
+}
+.container .secondSection .secondBox .detailWheater img {
+    width: 40%;
+    display: block;
+    margin: 2rem auto;
+}
+
+
+
+
+@media (min-width: 1020px){
+    .container .firstRow {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .container .tittle{
+        position: relative;
+        box-shadow: none;
+        margin: auto 8rem;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    /* First Section */
+
+    .container .firstSection .imagesfirstSection{
+        width: 50%;
+    }
+    .container .firstSection .imagesfirstSection img{
+        margin: 0 auto;
+        width: 40%;
+        display: none;
+    }
+
+
+    /* Second Section */
+    .container .secondSection{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* first box */
+    .container .secondSection .firstBox{
+        width: 50%;
+    }
+    .container .secondSection .firstBox .imagesFirstBox{
+        width: 70%;
+    }
+    .container .secondSection .firstBox .inputKeywordGroup {
+        text-align: center;    
+        margin: 0 auto;
+        line-height: 1.5;
+        
+    }
+
+    /* second box */
+    .container .secondSection .secondBox{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .container .secondSection .secondBox .detailWheater{
+        margin: 0 auto;
+    
+    }
+    .container .secondSection .secondBox .detailWheater form{
+        margin: 0 auto;
+    }
+    .container .secondSection .secondBox .detailWheater img{
+        width: 20%;
+    }
+}
