@@ -98,6 +98,9 @@ body {
     padding: 4px;
     margin: 0 auto;
 }
+.container .secondSection .secondBox .loaders0{
+ position: absolute;   
+}
 .container .secondSection .secondBox .loaders{
     position: relative;
 }
